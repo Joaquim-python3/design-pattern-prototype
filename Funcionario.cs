@@ -24,9 +24,5 @@ namespace design_pattern_prototype
 
         }
 
-        public String ToString()
-        {
-            return $"Nome: {Nome}, Cargo: {Cargo}, Salário: {Salario}";
-        }
     }
 }
