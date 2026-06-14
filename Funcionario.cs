@@ -18,6 +18,8 @@ namespace design_pattern_prototype
             return $"Nome: {Nome}, Cargo: {Cargo}, Salário: {Salario}";
         }
 
+    
+        // funcao clone para criar uma cópia do objeto atual
         public Funcionario Clone()
         {
             return new Funcionario(this.Nome, this.Cargo, this.Salario);
